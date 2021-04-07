@@ -1,2 +1,0 @@
-com/prog/communityaid/BuildConfig.java
- com.prog.communityaid.BuildConfig

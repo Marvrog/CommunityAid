@@ -1,4 +1,0 @@
-#Tue Apr 06 23:06:38 GMT 2021
-base.0=/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
