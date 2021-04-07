@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/layout_activity_register_select.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/layout/activity_register_select.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/layout_toolbar.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/layout/toolbar.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/layout-v21_activity_settings.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/layout-v21/activity_settings.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/layout_activity_profile.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/layout_activity_signout.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/layout/activity_signout.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/drawable_user.jpg.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/drawable/user.jpg"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/drawable_transparent_button.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/drawable/transparent_button.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/drawable_appbar_design.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/drawable/appbar_design.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/layout_activity_notification.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/layout/activity_notification.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/drawable_bottom_menu_design.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/drawable/bottom_menu_design.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/layout_activity_signin_select.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/layout/activity_signin_select.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/layout_custom_notification_item.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/layout/custom_notification_item.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/layout_activity_profile_setting.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/layout/activity_profile_setting.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/layout_activity_feed.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/layout/activity_feed.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/menu_bottom_menu.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/menu/bottom_menu.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/drawable_bottom_sheet.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/drawable/bottom_sheet.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/layout_activity_video.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/layout/activity_video.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/drawable_custom_edit_text.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/drawable/custom_edit_text.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/drawable_post_image_border.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/drawable/post_image_border.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/layout_bottom_menu.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/layout/bottom_menu.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/layout_activity_settings.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/layout_activity_post.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/layout/activity_post.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/root/AndroidStudioProjects/Mobile App Development/CommunityAid/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]
