@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appbar_design_width">
+        400dp
+    </dimen>
+</resources>

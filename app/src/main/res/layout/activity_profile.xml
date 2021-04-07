@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="551dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+        <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="@drawable/appbar_design"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Profile"
+        android:textAllCaps="true"
+        android:textFontWeight="900"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="378dp"
+        android:layout_height="415dp"
+        android:background="@drawable/custom_edit_text"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="0dp"
+        app:cardPreventCornerOverlap="false"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="100dp" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            >
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="332dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:elevation="0dp"
+                android:padding="0px"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="10dp"
+                android:outlineSpotShadowColor="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/user" />
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Samuel O. Asare"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="114dp"
+                tools:layout_editor_absoluteY="139dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spintex - Tema West Municipality"
+                tools:layout_editor_absoluteX="114dp"
+                tools:layout_editor_absoluteY="163dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:elevation="0dp"
+                android:padding="0px"
+                android:outlineSpotShadowColor="@color/white"
+                app:cardCornerRadius="10dp"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="213dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/backgroundColor"
+                    >
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1K"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="42dp"
+                        tools:layout_editor_absoluteY="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="49"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="159dp"
+                        tools:layout_editor_absoluteY="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="219K"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="255dp"
+                        tools:layout_editor_absoluteY="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Followers"
+                        tools:layout_editor_absoluteX="24dp"
+                        tools:layout_editor_absoluteY="44dp" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Solved Reports"
+                        tools:layout_editor_absoluteX="122dp"
+                        tools:layout_editor_absoluteY="44dp" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reactions"
+                        tools:layout_editor_absoluteX="243dp"
+                        tools:layout_editor_absoluteY="44dp" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/profile_button"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@drawable/custom_edit_text"
+                android:text="Edit Profile"
+                android:textAllCaps="false"
+                tools:layout_editor_absoluteX="24dp"
+                tools:layout_editor_absoluteY="325dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="82dp"
+                android:layout_height="76dp"
+                android:elevation="0dp"
+                app:cardElevation="0dp"
+                android:outlineSpotShadowColor="@color/white"
+                app:cardCornerRadius="10dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="106dp" >
+
+            <ImageView
+                android:id="@+id/imageButton4"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                app:srcCompat="@drawable/user"
+                android:scaleType="fitXY"
+
+                />
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/bottom_sheet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:srcCompat="@android:drawable/ic_delete"
+        tools:layout_editor_absoluteX="352dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to sign out?"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_lock_lock"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="135dp"
+        android:layout_height="51dp"
+        android:text="No, not yet"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:elevation="0dp"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        android:backgroundTint="#D7FF9800"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="690dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="135dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#F44336"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:elevation="0dp"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        android:text="Yes, Sign Out"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="690dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
