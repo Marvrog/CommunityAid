@@ -6,16 +6,16 @@
     android:background="@color/backgroundColor"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <View
         android:id="@+id/view3"
         android:layout_width="375dp"
         android:layout_height="94dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="140dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="12dp"
         android:background="@drawable/custom_edit_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,7 @@
             tools:srcCompat="@android:drawable/ic_delete" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/notInfoHead"
             android:layout_width="242dp"
             android:layout_height="37dp"
             android:layout_marginStart="30dp"
@@ -48,7 +48,7 @@
             app:layout_constraintTop_toTopOf="@+id/view3" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/notInfoMsg"
             android:layout_width="242dp"
             android:layout_height="23dp"
             android:layout_marginStart="30dp"
@@ -57,7 +57,7 @@
             android:lines="1"
             android:text="lorem lorem lorem lorem lorem lorem lorem lorem "
             app:layout_constraintStart_toEndOf="@+id/imageView2"
-            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+            app:layout_constraintTop_toBottomOf="@+id/notInfoHead" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

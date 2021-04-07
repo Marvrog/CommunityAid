@@ -10,6 +10,10 @@ import android.widget.Toast
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
+
+    var arrayList: ArrayList<MyData> = ArrayList()
+
+
     @SuppressLint("UseCompatLoadingForDrawables")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,7 +26,11 @@ class MainActivity : AppCompatActivity() {
         val notList = findViewById<ListView>(R.id.notList)
 //        val inflater: LayoutInflater = LayoutInflater.from(this)
 //        inflater.inflate(R.layout.custom_notification_item,notList,false)
-        val adapter = ArrayAdapter<String>(this, R.layout.custom_notification_item,)
+        arrayList.add(MyData(1, " Mashu", "987576443"))
+        arrayList.add(MyData(2, " Azhar", "8787576768"))
+        arrayList.add(MyData(3, " Niyaz", "65757657657"))
+        val adapter = CustomListAdapter(this, arrayList)
+//        val adapter = ArrayAdapter<String>(this, R.layout.custom_notification_item,data)
         notList.adapter = adapter
 
         val bottomMenu = findViewById<BottomNavigationView>(R.id.bottom_menu)
