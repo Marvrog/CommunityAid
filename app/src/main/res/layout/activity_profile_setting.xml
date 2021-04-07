@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="@drawable/appbar_design"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="112dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Settings"
+        android:textAllCaps="true"
+        android:textFontWeight="900"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="122dp"
+        android:layout_height="103dp"
+        android:elevation="0dp"
+        android:padding="0px"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="20dp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="135dp" >
+
+        <ImageView
+            android:id="@+id/editAccountImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:padding="0px"
+            app:srcCompat="@drawable/user" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/editAccountImageCapture"
+        android:layout_width="39dp"
+        android:layout_height="36dp"
+        android:elevation="0dp"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <EditText
+        android:id="@+id/editAccountFirstName"
+        android:layout_width="327dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="First Name"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <EditText
+        android:id="@+id/editAccountLastName"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Last Name"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+
+    <Spinner
+        android:id="@+id/editAccountGender"
+        android:layout_width="208dp"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+
+    <EditText
+        android:id="@+id/editAccountLocation"
+        android:layout_width="318dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Location"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="559dp" />
+
+
+    <Button
+        android:id="@+id/editAccountSaveButton"
+        android:layout_width="324dp"
+        android:layout_height="57dp"
+        android:backgroundTint="@color/default_color"
+        android:elevation="0dp"
+        android:text="Save Changes"
+        android:outlineAmbientShadowColor="@color/white"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="679dp" />
+
+    <include layout="@layout/bottom_menu" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
