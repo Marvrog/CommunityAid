@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_color">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/bottom_sheet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/button"
+        style="@style/button"
+        android:layout_width="325dp"
+        android:layout_height="42dp"
+        android:inputType="textWebEmailAddress"
+        android:padding="15dp"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name:"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <EditText
+        android:id="@+id/button2"
+        style="@style/button"
+        android:layout_width="325dp"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:inputType="textWebEmailAddress"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="559dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name:"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+
+    <EditText
+        android:id="@+id/button4"
+        style="@style/button"
+        android:layout_width="325dp"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:inputType="textWebEmailAddress"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="629dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+    <EditText
+        android:id="@+id/button8"
+        style="@style/button"
+        android:layout_width="325dp"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:inputType="textWebEmailAddress"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="703dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="684dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="325dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/signinColor"
+        android:text="Register"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="764dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

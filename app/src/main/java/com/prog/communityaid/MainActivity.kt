@@ -3,6 +3,9 @@ package com.prog.communityaid
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.LayoutInflater
+import android.widget.ArrayAdapter
+import android.widget.ListView
 import android.widget.Toast
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -13,6 +16,14 @@ class MainActivity : AppCompatActivity() {
         //window.decorView.systemUiVisibility =  View.SYSTEM_UI_FLAG_FULLSCREEN
         actionBar?.hide()
         setContentView(R.layout.activity_notification)
+
+        val data = arrayOf("Prog")
+
+        val notList = findViewById<ListView>(R.id.notList)
+//        val inflater: LayoutInflater = LayoutInflater.from(this)
+//        inflater.inflate(R.layout.custom_notification_item,notList,false)
+        val adapter = ArrayAdapter<String>(this, R.layout.custom_notification_item,)
+        notList.adapter = adapter
 
         val bottomMenu = findViewById<BottomNavigationView>(R.id.bottom_menu)
         bottomMenu.setOnNavigationItemSelectedListener {
