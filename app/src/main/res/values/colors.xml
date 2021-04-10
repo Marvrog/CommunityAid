@@ -12,4 +12,5 @@
     <color name="blue">#7373DF</color>
     <color name="signinColor">#494747</color>
     <color name="default_color">#FF9800</color>
+    <color name="transparent">#00FFFFFF</color>
 </resources>

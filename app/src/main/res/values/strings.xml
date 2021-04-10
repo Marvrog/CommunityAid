@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Community Aid</string>
-    <string name="demo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi aspernatur atque consequatur, dolorum excepturi magnam molestias nulla officiis omnis, quibusdam quo recusandae reprehenderit similique ullam vero, vitae. Laboriosam, quibusdam!</string>
+    <string name="demo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi aspernatur atque consequatur, dolorum excepturi magnam molestias nulla officiis omnis, quibusdam quo recusandae reprehenderit similique ullam vero, vitae. Laboriosam, quibusdam!
+    </string>
 </resources>
