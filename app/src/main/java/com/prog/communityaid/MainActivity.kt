@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         //window.decorView.systemUiVisibility =  View.SYSTEM_UI_FLAG_FULLSCREEN
         actionBar?.hide()
-        setContentView(R.layout.activity_signin)
+        setContentView(R.layout.activity_signout)
 
 //        val data = arrayOf("Prog")
 //
