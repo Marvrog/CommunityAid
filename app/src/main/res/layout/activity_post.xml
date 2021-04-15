@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <include layout="@layout/bottom_menu" />
+
 
 
     <ImageButton
@@ -31,42 +31,87 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="?attr/actionModeCloseDrawable" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/include2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="120dp">
+
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="0dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/custom_edit_text"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name"
+                android:textColor="@color/buttonBorder"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="0dp"
+                android:layout_height="194dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/custom_post_designs"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Write more about what's going on"
+                android:inputType="textMultiLine"
+                android:textColor="@color/buttonBorder"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/signinColor"
+                android:outlineAmbientShadowColor="@color/white"
+                android:outlineSpotShadowColor="@color/white"
+                android:text="Post"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/bottom_menu"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Post"
-        android:backgroundTint="@color/signinColor"
-        android:outlineSpotShadowColor="@color/white"
-        android:outlineAmbientShadowColor="@color/white"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="439dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="345dp"
-        android:layout_height="51dp"
-        android:ems="10"
-        android:textSize="16sp"
-        android:inputType="textPersonName"
-        android:text="Name"
-        android:textColor="@color/buttonBorder"
-        android:background="@drawable/custom_edit_text"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="128dp" />
-
-    <EditText
-        android:id="@+id/editTextTextMultiLine"
-        android:layout_width="345dp"
-        android:layout_height="194dp"
-        android:ems="10"
-        android:textSize="16dp"
-        android:hint="Write more about what's going on"
-        android:textColor="@color/buttonBorder"
-        android:background="@drawable/custom_edit_text"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="202dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -48,34 +48,49 @@
 
     <View
         android:id="@+id/view2"
-        android:layout_width="383dp"
+        android:layout_width="0dp"
         android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:background="@drawable/custom_edit_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="114dp" />
+        app:layout_constraintTop_toBottomOf="@+id/view" />
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_delete"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="132dp" />
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:srcCompat="@android:drawable/ic_delete" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Profile Settings"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="138dp" />
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
 
     <View
         android:id="@+id/view4"
-        android:layout_width="383dp"
+        android:layout_width="0dp"
         android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="18dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:background="@drawable/custom_edit_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,45 +100,72 @@
         android:id="@+id/imageView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4"
         app:srcCompat="@android:drawable/ic_delete"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="210dp" />
+        />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Account Settings"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="218dp" />
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        />
 
 
     <View
         android:id="@+id/view3"
-        android:layout_width="383dp"
+        android:layout_width="0dp"
         android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:background="@drawable/custom_edit_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="281dp" />
+        app:layout_constraintTop_toBottomOf="@+id/view4" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/ic_delete"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="295dp" />
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Out"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="302dp" />
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
 
-    <include layout="@layout/bottom_menu" />
+    <include
+        android:id="@+id/include4"
+        layout="@layout/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

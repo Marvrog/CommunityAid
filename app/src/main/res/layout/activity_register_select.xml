@@ -10,7 +10,7 @@
     <View
         android:id="@+id/view2"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="450dp"
         android:background="@drawable/bottom_sheet"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +21,7 @@
         style="@style/button"
         android:layout_width="325dp"
         android:layout_height="53dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/transparent_button"
         android:text="Register with Google"
         android:textAllCaps="false"
@@ -35,7 +35,7 @@
         style="@style/button"
         android:layout_width="325dp"
         android:layout_height="53dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/transparent_button"
         android:text="Register with Facebook"
         android:textAllCaps="false"
@@ -48,7 +48,7 @@
         android:id="@+id/button3"
         android:layout_width="325dp"
         android:layout_height="60dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="35dp"
         android:backgroundTint="@color/signinColor"
         android:text="Register"
         android:textAllCaps="false"
@@ -60,9 +60,12 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="27dp"
         android:text="Already have an account?"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="766dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -91,8 +94,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign in"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="27dp"
         android:textColor="@color/blue"
-        tools:layout_editor_absoluteX="266dp"
-        tools:layout_editor_absoluteY="766dp" />
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

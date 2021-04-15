@@ -38,4 +38,109 @@
         app:layout_constraintTop_toTopOf="@+id/view3"
         tools:srcCompat="@android:drawable/ic_delete" />
 
+
+
+
+<!--    Error-->
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="383dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/custom_edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile Settings"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="383dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/custom_edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:srcCompat="@android:drawable/ic_delete"
+        />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Settings"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        />
+
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="383dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/custom_edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_delete"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

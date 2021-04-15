@@ -44,87 +44,155 @@
         app:layout_constraintEnd_toEndOf="@+id/view"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="122dp"
-        android:layout_height="103dp"
-        android:elevation="0dp"
-        android:padding="0px"
-        app:cardElevation="0dp"
-        app:cardCornerRadius="20dp"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="135dp" >
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/include3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        >
 
-        <ImageView
-            android:id="@+id/editAccountImage"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="fitXY"
-            android:padding="0px"
-            app:srcCompat="@drawable/user" />
-    </androidx.cardview.widget.CardView>
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="120dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView10"
+                android:layout_width="122dp"
+                android:layout_height="103dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginRight="120dp"
+                android:elevation="0dp"
+                android:padding="0px"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/editAccountImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="0px"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/user" />
+            </androidx.cardview.widget.CardView>
 
     <ImageButton
         android:id="@+id/editAccountImageCapture"
         android:layout_width="39dp"
         android:layout_height="36dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginRight="120dp"
         android:elevation="0dp"
-        app:srcCompat="@android:drawable/ic_menu_camera"
-        tools:layout_editor_absoluteX="236dp"
-        tools:layout_editor_absoluteY="214dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/cardView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
 
-    <EditText
-        android:id="@+id/editAccountFirstName"
-        android:layout_width="327dp"
-        android:layout_height="45dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="First Name"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="308dp" />
+            <EditText
+                android:id="@+id/editAccountFirstName"
+                android:layout_width="327dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="42dp"
+                android:layout_marginRight="42dp"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView10" />
 
-    <EditText
-        android:id="@+id/editAccountLastName"
-        android:layout_width="324dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Last Name"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="386dp" />
-
-
-    <Spinner
-        android:id="@+id/editAccountGender"
-        android:layout_width="208dp"
-        android:layout_height="50dp"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="471dp" />
-
-
-    <EditText
-        android:id="@+id/editAccountLocation"
-        android:layout_width="318dp"
-        android:layout_height="47dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Location"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="559dp" />
+            <EditText
+                android:id="@+id/editAccountLastName"
+                android:layout_width="324dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="43dp"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="44dp"
+                android:layout_marginRight="44dp"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editAccountFirstName" />
 
 
-    <Button
-        android:id="@+id/editAccountSaveButton"
-        android:layout_width="324dp"
-        android:layout_height="57dp"
-        android:backgroundTint="@color/default_color"
-        android:elevation="0dp"
-        android:text="Save Changes"
-        android:outlineAmbientShadowColor="@color/white"
-        android:textAllCaps="false"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="679dp" />
+            <Spinner
+                android:id="@+id/editAccountGender"
+                android:layout_width="208dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="43dp"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="160dp"
+                android:layout_marginRight="160dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editAccountLastName" />
 
-    <include layout="@layout/bottom_menu" />
+
+            <EditText
+                android:id="@+id/editAccountLocation"
+                android:layout_width="318dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="43dp"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:ems="10"
+                android:hint="Location"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editAccountGender" />
+
+
+            <Button
+                android:id="@+id/editAccountSaveButton"
+                android:layout_width="0dp"
+                android:layout_height="67dp"
+                android:layout_marginStart="43dp"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="44dp"
+                android:layout_marginRight="44dp"
+                android:backgroundTint="@color/default_color"
+                android:elevation="0dp"
+                android:outlineAmbientShadowColor="@color/white"
+                android:text="Save Changes"
+                android:outlineSpotShadowColor="@color/transparent"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editAccountLocation" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/include3"
+        layout="@layout/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

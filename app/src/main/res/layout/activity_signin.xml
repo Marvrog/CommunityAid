@@ -9,30 +9,11 @@
     <View
         android:id="@+id/view2"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="450dp"
         android:background="@drawable/bottom_sheet"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/button"
-        style="@style/button"
-        android:layout_width="325dp"
-        android:layout_height="48dp"
-        android:inputType="textWebEmailAddress"
-        android:padding="15dp"
-        android:textAllCaps="false"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="504dp" />
-
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="587dp" />
 
     <EditText
         android:id="@+id/button2"
@@ -42,35 +23,62 @@
         android:gravity="center"
         android:inputType="textWebEmailAddress"
         android:textAllCaps="false"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="606dp" />
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <EditText
+        android:id="@+id/button"
+        style="@style/button"
+        android:layout_width="325dp"
+        android:layout_height="48dp"
+        android:inputType="textWebEmailAddress"
+        android:padding="15dp"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="485dp" />
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="325dp"
         android:layout_height="60dp"
+        android:layout_marginTop="44dp"
         android:backgroundTint="@color/signinColor"
         android:text="Sign In"
         android:textAllCaps="false"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="704dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <TextView
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:text="Sign In"
         android:textSize="28sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="416dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/view2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

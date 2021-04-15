@@ -11,6 +11,7 @@
     <color name="buttonBorder">#C3C1C1</color>
     <color name="blue">#7373DF</color>
     <color name="signinColor">#494747</color>
-    <color name="default_color">#FF9800</color>
+<!--    <color name="default_color">#FF9800</color>-->
+    <color name="default_color">#E91E63</color>
     <color name="transparent">#00FFFFFF</color>
 </resources>
