@@ -18,15 +18,17 @@
 
     <ImageButton
         android:id="@+id/imageButton5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/close"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="32dp"
+        android:scaleType="fitXY"
         android:layout_marginRight="32dp"
         android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view2"
-        app:srcCompat="@android:drawable/ic_delete" />
+         />
 
     <TextView
         android:id="@+id/textView17"
@@ -41,13 +43,14 @@
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="41dp"
-        android:layout_height="38dp"
+        android:layout_width="45dp"
+        android:layout_height="58dp"
         android:layout_marginTop="60dp"
+        android:src="@drawable/bin1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5"
-        app:srcCompat="@android:drawable/ic_lock_lock" />
+        />
 
     <Button
         android:id="@+id/button11"
