@@ -98,14 +98,14 @@
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         android:layout_marginStart="14dp"
         android:layout_marginLeft="14dp"
         android:layout_marginTop="14dp"
         app:layout_constraintStart_toStartOf="@+id/view4"
         app:layout_constraintTop_toTopOf="@+id/view4"
-        app:srcCompat="@android:drawable/ic_delete"
+        app:srcCompat="@drawable/accountsetting"
         />
 
     <TextView
@@ -137,9 +137,9 @@
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_delete"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/signout"
         android:layout_marginStart="14dp"
         android:layout_marginLeft="14dp"
         android:layout_marginTop="14dp"

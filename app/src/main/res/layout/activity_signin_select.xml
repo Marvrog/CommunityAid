@@ -59,25 +59,25 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="40dp"
+        android:layout_width="35dp"
         android:layout_height="26dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginLeft="52dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
         android:layout_marginTop="12dp"
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toTopOf="@+id/button"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/google" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="40dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginLeft="48dp"
-        android:layout_marginTop="12dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="@+id/button2"
         app:layout_constraintTop_toTopOf="@+id/button2"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/facebooklogo" />
 
     <TextView
         android:id="@+id/textView3"

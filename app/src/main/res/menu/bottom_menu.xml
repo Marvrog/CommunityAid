@@ -5,13 +5,13 @@
     <item
         android:title="Home"
         android:id="@+id/home"
-        android:icon="@android:drawable/ic_menu_gallery"
+        android:icon="@drawable/home"
         app:showAsAction="ifRoom"/>
     <item
         android:title="Post"
         android:id="@+id/post"
         android:titleCondensed="@android:string/cancel"
-        android:icon="@android:drawable/ic_menu_add"
+        android:icon="@drawable/add"
         app:showAsAction="ifRoom"/>
 
     <item

@@ -20,7 +20,6 @@
         style="@style/button"
         android:layout_width="325dp"
         android:layout_height="48dp"
-        android:gravity="center"
         android:inputType="textWebEmailAddress"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="@+id/view2"

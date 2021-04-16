@@ -1,9 +1,11 @@
 package com.prog.communityaid
 
 import android.annotation.SuppressLint
+import android.graphics.drawable.Icon
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.MenuItem
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import android.widget.Toast
@@ -19,7 +21,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         //window.decorView.systemUiVisibility =  View.SYSTEM_UI_FLAG_FULLSCREEN
         actionBar?.hide()
-        setContentView(R.layout.activity_signout)
+        setContentView(R.layout.activity_post)
+
+//    val post = findViewById<Icon>(R.id.post)
 
 //        val data = arrayOf("Prog")
 //
