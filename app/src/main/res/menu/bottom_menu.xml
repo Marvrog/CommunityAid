@@ -17,6 +17,6 @@
     <item
         android:title="Settings"
         android:id="@+id/settings"
-        android:icon="@android:drawable/ic_menu_more"
+        android:icon="@drawable/setting"
         app:showAsAction="ifRoom"/>
 </menu>

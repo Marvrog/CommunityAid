@@ -19,15 +19,17 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        android:padding="0dp"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/white"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="?attr/actionModeCloseDrawable" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <TextView
@@ -62,14 +64,15 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         android:layout_marginStart="14dp"
+        android:src="@drawable/profile"
+        android:backgroundTint="@color/transparent"
         android:layout_marginLeft="14dp"
         android:layout_marginTop="14dp"
         app:layout_constraintStart_toStartOf="@+id/view2"
-        app:layout_constraintTop_toTopOf="@+id/view2"
-        app:srcCompat="@android:drawable/ic_delete" />
+        app:layout_constraintTop_toTopOf="@+id/view2" />
 
     <TextView
         android:id="@+id/textView14"

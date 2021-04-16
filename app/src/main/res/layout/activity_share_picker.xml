@@ -38,7 +38,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5"
-        app:srcCompat="@android:drawable/ic_menu_share" />
+        app:srcCompat="@drawable/share" />
 
     <EditText
         android:id="@+id/shareClipboard"

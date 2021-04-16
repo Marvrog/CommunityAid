@@ -19,15 +19,17 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        android:padding="0dp"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/white"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="?attr/actionModeCloseDrawable" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 
@@ -190,9 +192,10 @@
 
                     <ImageButton
                         android:id="@+id/button6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="30dp"
-                        android:layout_marginTop="17dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="fitXY"
                         android:layout_marginEnd="22dp"
                         android:layout_marginRight="22dp"
                         android:backgroundTint="@color/transparent"
@@ -200,18 +203,21 @@
                         android:textSize="11sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView9"
-                        app:srcCompat="@android:drawable/ic_menu_share" />
+                        app:srcCompat="@drawable/share" />
 
                     <ImageButton
                         android:id="@+id/imageButton2"
-                        android:layout_width="38dp"
-                        android:layout_height="39dp"
                         android:layout_marginStart="15dp"
                         android:layout_marginLeft="15dp"
                         android:layout_marginTop="10dp"
+                        android:layout_width="38dp"
+                        android:layout_height="39dp"
+                        android:backgroundTint="@color/transparent"
+                        android:padding="10dp"
+                        android:scaleType="fitXY"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView9"
-                        app:srcCompat="@android:drawable/stat_notify_chat" />
+                        app:srcCompat="@drawable/chat3" />
 
                     <ImageButton
                         android:id="@+id/imageButton3"
@@ -220,9 +226,12 @@
                         android:layout_marginStart="24dp"
                         android:layout_marginLeft="24dp"
                         android:layout_marginTop="10dp"
+                        android:backgroundTint="@color/transparent"
+                        android:padding="2dp"
+                        android:scaleType="fitXY"
                         app:layout_constraintStart_toEndOf="@+id/textView10"
                         app:layout_constraintTop_toBottomOf="@+id/textView9"
-                        app:srcCompat="@android:drawable/stat_sys_headset" />
+                        app:srcCompat="@drawable/love" />
 
                     <TextView
                         android:id="@+id/textView10"

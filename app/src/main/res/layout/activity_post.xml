@@ -21,16 +21,18 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="50dp"
-        android:layout_height="45dp"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:scaleType="fitXY"
+        android:src="@drawable/back"
+        android:padding="0dp"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/back" />
+         />
 
     <ImageButton
         android:id="@+id/imageButton7"

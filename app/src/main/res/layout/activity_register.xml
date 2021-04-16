@@ -6,110 +6,138 @@
     android:layout_height="match_parent"
     android:background="@color/default_color">
 
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        android:padding="0dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <View
         android:id="@+id/view2"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="450dp"
         android:background="@drawable/bottom_sheet"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Register"
+        android:textColor="@color/signinColor"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/view2" />
+
     <EditText
         android:id="@+id/button"
         style="@style/button"
-        android:layout_width="325dp"
+        android:layout_width="300dp"
         android:layout_height="42dp"
         android:inputType="textWebEmailAddress"
         android:padding="15dp"
         android:textAllCaps="false"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="492dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
         android:text="First Name:"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="473dp" />
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
     <EditText
         android:id="@+id/button2"
         style="@style/button"
-        android:layout_width="325dp"
+        android:layout_width="300dp"
         android:layout_height="42dp"
         android:gravity="center"
         android:inputType="textWebEmailAddress"
         android:textAllCaps="false"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="559dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="Last Name:"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="540dp" />
-
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <EditText
         android:id="@+id/button4"
         style="@style/button"
-        android:layout_width="325dp"
+        android:layout_width="300dp"
         android:layout_height="42dp"
         android:gravity="center"
         android:inputType="textWebEmailAddress"
         android:textAllCaps="false"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="629dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
     <TextView
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
         android:text="Email:"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="610dp" />
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <EditText
         android:id="@+id/button8"
         style="@style/button"
-        android:layout_width="325dp"
+        android:layout_width="300dp"
         android:layout_height="42dp"
         android:gravity="center"
         android:inputType="textWebEmailAddress"
         android:textAllCaps="false"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="703dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
 
     <TextView
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:text="Password:"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="684dp" />
+        app:layout_constraintStart_toStartOf="@+id/button8"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="325dp"
+        android:layout_width="300dp"
         android:layout_height="60dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="@color/signinColor"
         android:text="Register"
         android:textAllCaps="false"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="764dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
 
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Register"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="416dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
